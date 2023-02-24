@@ -1,6 +1,6 @@
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
-const branchColor = "#FFA500";
+const branchColor = "#954535";
 const leafColor = "green";
 const startAngle = -90;
 const endAngle = -90.1;
@@ -75,8 +75,8 @@ function animate() {
     canvas.width / 2,
     canvas.height - 20,
     startAngle,
-    10,
-    100
+    8,
+    150
   );
 
   let branches = [startBranch];
